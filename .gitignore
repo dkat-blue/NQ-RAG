@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+*.env
+.env.*
+
+# Data files
+data/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Qdrant local storage (if used directly in project root, adjust path if needed)
+storage/
+
+# Other common ignores
+*.bak
+*.swp
+*~
